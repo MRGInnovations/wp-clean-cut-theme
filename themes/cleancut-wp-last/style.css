@@ -1,0 +1,273 @@
+/*
+  Theme Name: Cleancut Theme Last
+  Author: iodev team
+  Author URI: iodevllc.com
+  Version: 0.0.1 (beta)
+*/
+
+body
+{
+	padding-top: 50px;
+}
+
+body, h1, h2, h3, h4, h5, h6
+{
+	font-family: "Lato", "Helvetic Neue", Helvetica;
+}
+
+.lead
+{
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.showcase
+{
+	text-align: center;
+	color: #fff;
+	animation-duration: 3s;
+}
+
+.showcase h1
+{
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+	font-size: 5em;
+	color: #fff;
+}
+
+.showcase p.lead
+{
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+	font-size: 2em;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+}
+
+.showcase div.showcase-content
+{
+	width: 50%;
+	margin: auto;
+	margin-top: 15px;
+}
+
+.showcase a.btn
+{
+	margin-right: 20px;
+}
+
+div.section-a
+{
+	padding: 50px 0;
+	background-color: #f8f8f8;
+}
+
+div.section-b
+{
+	padding: 50px 0;
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.banner
+{
+	padding: 100px 0;
+	color: #f8f8f8;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.banner h2
+{
+	margin: 0;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+	font-size: 3em;
+}
+
+.banner-social-buttons
+{
+	float: right;
+	margin-top: 0;
+}
+
+footer
+{
+	padding: 50px 0;
+	background-color: #f8f8f8;
+}
+
+
+.title-bar
+{
+	padding: 15px 0;
+	border-bottom: 1px solid #ddd;
+}
+
+.title-bar h1
+{
+	padding: 0;
+	margin: 0;
+}
+
+.sub-nav ul
+{
+	float: right;
+	padding-top: 10px;
+	list-style-type: none;
+}
+
+.sub-nav ul li
+{
+	float: left;
+	padding: 0 15px 0 15px;
+	border-right: 1px solid #ccc;
+}
+
+.sub-nav ul li:last-child
+{
+	border: none;
+}
+
+.page
+{
+	padding: 20px 0;
+}
+
+.page div.post-thumbnail img
+{
+	width: 100%;
+	height: auto;
+	margin-bottom: 25px; 
+}
+
+.meta
+{
+	margin-bottom: 10px;
+	font-weight: bold;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 5px;
+}
+
+.boxed-content
+{
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+.boxed-content.left-aligned
+{
+	text-align: left;
+}
+
+.boxed-content.left-aligned i
+{
+	float: left;
+	margin-right: 10px;
+	font-size: 2em;
+}
+
+.boxed-content.left-boxed-icon i
+{
+	border-radius: 2px;
+	padding: 10px;
+	width: 60px;
+	height: 60px;
+	background: #406da4;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+}
+
+.boxed-content .boxed-content-title
+{
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.boxed-content p
+{
+	padding-left: 70px; 
+}
+
+.excerpt p
+{
+	font-size: 18px;
+	font-weight: 400;
+}
+
+
+
+/* Comments */
+.comments
+{
+	border: 1px #ccc solid;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.comments h3, .comments h2
+{
+	background: #f4f4f4;
+	color: #333;
+	padding: 5px
+}
+
+.comment-body
+{
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	padding: 20px 10px;
+}
+
+.comment-meta
+{
+	background: #333;
+	color: #fff;
+	padding: 10px;
+	overflow: auto;
+}
+
+.comment-meta img
+{
+	float: left;
+	margin-right: 10px;
+}
+
+.comment-meta time
+{
+	margin-left: 12px;
+}
+
+.comment-reply-link
+{
+	background: #333;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 15px;
+}
+
+.comment-form input, .comment-form textarea
+{
+	width: 100%;
+	padding: 3px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.comment-form input[type="submit"]
+{
+	background-color: lightblue;
+	padding: 5px;
+    font-size: 20px;
+}
+
+#wpadminbar
+{
+	display: none !important;
+}
+
+.current_page_item, .current-cat
+{
+	font-weight: bold;
+}
